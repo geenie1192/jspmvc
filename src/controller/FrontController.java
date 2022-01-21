@@ -30,7 +30,7 @@ public class FrontController extends HttpServlet{
 		String contextPath = req.getContextPath();
 		String path = url.substring(contextPath.length());
 		
-//		System.out.println(url);
+		System.out.println(url);
 //		System.out.println(contextPath);
 //		System.out.println(path);
 		
