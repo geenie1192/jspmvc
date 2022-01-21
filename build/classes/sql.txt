@@ -1,0 +1,9 @@
+CREATE TABLE welcome_tbl(
+	id number(6) NOT NULL,
+	msg varchar2(100),
+	CONSTRAINT welcome_tbl_pk PRIMARY KEY (id)
+)
+
+INSERT INTO welcome_tbl(id, msg) VALUES(1, '삶이 있는 한 희망은 있다-키케로');
+INSERT INTO welcome_tbl(id, msg) VALUES(2, '산다는 건 치열한 전투이다-로망로랑');
+INSERT INTO welcome_tbl(id, msg) VALUES(3, '언제나 현재에 집중할 수 있다면 행복할 것이다-키케로');
